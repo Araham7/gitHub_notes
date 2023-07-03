@@ -1,0 +1,15 @@
+// GITHUB NOTES: TO "PUSH(uplode)" AND "CLONE" THE codes preasent in local system :-----
+
+
+(1). github ke code ko apne local_machine(computer) me copy kanekeliye terminal  ko openkarke ` git clone <git_directory_path> ` likh karke enter click kardo github ka directory local_machine(computer) me clone hojayega.
+
+(2). local_machine(computer) ke code ko GITHUB me uplode karnekeliye sabse pahle github me apna accound open karke apna ek "repository" banalen( aur created repository ka link ko bhi copy karlen ) jisme aap apna code uplode(push) karna chahten hai , phir local_machine(computer) me ja karke aap apne code ko(jise aap gitHub me uplode karna chaten hai) usko kisi bhi ek ide(e.x, vs code) me open karlo , uskebad aap apna vs code ko terminal me open karlo phir
+"pwd"(preasent working directory)
+likh enter click karke check karlo ki aap kis directory me hai , yadi aap apne us directory ke andar nah hai janha par aapka "wo sara files hai jise github par uplode karna hai to phir
+"cd <us directory ka absolute path likho janhapar aapka wo sara files hai jise aap github par uplode karna chahte ho>" likh karke enter click karo phir terminal me "git init" likh karke GIT ko apne project me initialize karlo phir "git add ." teminal me likh karke aap apne pwd(preasent working directory) ke sare files ka git ke sahare traking start karwaden phir  " git commit -m 'message' "  likh karke sare files ko commit kardo aur phir terminal me:
+"git remote add origin <jis git directory me aap apna code push karna chaten han uska link>.git" phir 
+"git branch -M main"
+ aur ant me , 
+"git push -u origin main" likh karke apne sare local_machine(computer) ke code ko gitHub me push kardo.
+
+(3). "git remote remove origin" // is command ka prayog git " git_remote_origin " ko remove karnekeliye kiya jata hai .
